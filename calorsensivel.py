@@ -1,0 +1,6 @@
+m = int(input("Valor de massa: "))
+c = int(input("Valor de calor: "))
+ti = int(input("Valor de temp inicial: "))
+tf = int(input("Valor de temp final: "))
+conta = m * c * (tf - ti)
+print ("A conta da = ", conta)
